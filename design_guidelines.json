@@ -1,0 +1,114 @@
+{
+  "project_title": "REMORQUAGE 40 EST — Landing Page Audacieuse Route de Nuit",
+  "archetype": "THE PERFORMANCE PRO / HIGH CONTRAST NIGHT AUTOMOTIVE",
+  "theme": "Dark Mode (Route de Nuit)",
+  "language_support": {
+    "default": "FR",
+    "toggle_options": ["FR", "EN"],
+    "implementation_note": "Utiliser un état React local (ex: langState) avec un dictionnaire de traduction d'urgence complet. Switch instantané sans rechargement."
+  },
+  "brand_assets": {
+    "logo_url": "https://customer-assets-jai6qajn.emergentagent.net/job_b23a0bfd-e543-460b-b6e9-95f104971102/artifacts/5zk6sw15_image.png",
+    "brand_name": "REMORQUAGE 40 EST",
+    "phone": "438-402-4080",
+    "formatted_phone": "(438) 402-4080",
+    "sms_action_url": "sms:438-402-4080"
+  },
+  "typography": {
+    "heading_font": "Barlow Condensed, Syne, or Anton (Sans-Serif Condensé Ultra Audacieux, 800/900 weight)",
+    "body_font": "Space Grotesk or Inter (Lisibilité industrielle, haute visibilité)",
+    "mono_font": "JetBrains Mono (pour les indicateurs GPS, codes zones, chronomètres 24/7)",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tight leading-[0.9]",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight text-white",
+      "h3": "text-xl sm:text-2xl font-bold text-red-500 tracking-wide uppercase",
+      "body": "text-base sm:text-lg text-slate-300 leading-relaxed font-normal",
+      "labels": "text-xs uppercase tracking-[0.25em] text-red-500 font-mono font-bold"
+    }
+  },
+  "colors": {
+    "background_primary": "#070709",
+    "background_secondary": "#0f0f14",
+    "card_bg": "rgba(18, 18, 24, 0.75)",
+    "accent_primary": "#EF4444",
+    "accent_primary_hover": "#DC2626",
+    "accent_secondary": "#F59E0B",
+    "text_primary": "#F8FAFC",
+    "text_muted": "#94A3B8",
+    "border_subtle": "rgba(239, 68, 68, 0.15)",
+    "border_hover": "rgba(239, 68, 68, 0.50)",
+    "glow_red": "rgba(239, 68, 68, 0.35)",
+    "glass_header": "rgba(7, 7, 9, 0.85)"
+  },
+  "image_urls": {
+    "hero_background": "https://images.unsplash.com/photo-1610641018556-030e920d6999?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHx0b3clMjB0cnVjayUyMGhpZ2h3YXklMjBuaWdodCUyMG5lb24lMjBsaWdodHMlMjByb2FkJTIwcmVzY3VlfGVufDB8fHx8MTc4OTIzNjc5OXww&ixlib=rb-4.1.0&q=85",
+    "service_towing_local": "https://images.unsplash.com/photo-1709674565833-6588dcb657d8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHx0b3clMjB0cnVjayUyMGhpZ2h3YXklMjBuaWdodCUyMG5lb24lMjBsaWdodHMlMjByb2FkJTIwcmVzY3VlfGVufDB8fHx8MTc4OTIzNjc5OXww&ixlib=rb-4.1.0&q=85",
+    "service_car_buy_sell": "https://images.unsplash.com/photo-1580014317999-e9f1936787a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDN5Nzd8MHwxfHNlYXJjaHwxfHxzcG9ydHMlMjBjYXIlMjBsdXh1cnklMjB2ZWhpY2xlJTIwZGFyayUyMHBob3Rvc2hvb3QlMjBhdXRvbW90aXZlfGVufDB8fHx8MTc4OTIzNjgwN3ww&ixlib=rb-4.1.0&q=85",
+    "service_scrap_metal": "https://images.unsplash.com/photo-1738189035213-43f3575314b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NDY0MX8MHwxfHNlYXJjaHwyfHxzY3JhcCUyMGNhciUyMGF1dG8lMjBzYWx2YWdlJTIweWFyZCUyMHZlaGljbGUlMjB0cmFuc3BvcnQlMjBmbGF0YmVkJTIwdG93aW5nJTIwdHJ1Y2t8ZW58MHx8fHwxNzg5MjM2Nzk5fDA&ixlib=rb-4.1.0&q=85",
+    "montreal_night_highway": "https://images.unsplash.com/photo-1781563870880-193e11fefad4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwxfHxuaWdodCUyMGNpdHklMjBoaWdod2F5JTIwdHJhZmZpYyUyMHNwZWVkJTIwbGlnaHRzJTIwbW9udHJlYWwlMjBicmlkZ2V8ZW58MHx8fHwxNzg5MjM2ODA3fDA&ixlib=rb-4.1.0&q=85"
+  },
+  "key_sections": [
+    {
+      "id": "header",
+      "name": "Navigation & En-tête Fixe Crystal",
+      "description": "Sticky header avec effet glassmorphism noir/rouge, Logo officiel, badge 'Dispo 24/7', toggle FR/EN et bouton d'urgence 438-402-4080"
+    },
+    {
+      "id": "hero",
+      "name": "Hero Cinétique Route de Nuit",
+      "description": "Lignes animées staggered au chargement, affichage du logo grand format, badges des zones (Montréal, Laval, Rive-Sud, Rive-Nord), et bouton d'appel massif 'APPELER 438-402-4080' avec impulsion rouge lumineuse"
+    },
+    {
+      "id": "marquee",
+      "name": "Marquee Éditoriale Lente",
+      "description": "Bandeau défilant ultra-stylisé à vitesse modérée (react-fast-marquee) avec slogans 'REMORQUAGE URGENT 24/7 • ACHAT COMPTANT VÉHICULES SCRAP • TRANSPORT LONGUE DISTANCE • MONTRÉAL & ENVIRONS'"
+    },
+    {
+      "id": "manifesto_services",
+      "name": "Chapitres Manifeste & Services 01-04",
+      "description": "Présentation des 4 grands piliers sous forme de grille Tetris / Bento haute tension: 01. Remorquage Local & Ugent 24/7, 02. Transport Longue Distance, 03. Achat & Vente de Véhicules, 04. Rachat de Scrap / Ferraille & Épaves au Meilleur Prix"
+    },
+    {
+      "id": "coverage_zones",
+      "name": "Matrice des Zones Desservies & Temps de Réponse",
+      "description": "Cartes interactives des 4 grands secteurs (Montréal, Laval, Rive-Sud, Rive-Nord) avec estimation du temps d'arrivée (15-30 min) et calcul d'itinéraire d'urgence"
+    },
+    {
+      "id": "sms_contact_builder",
+      "name": "Formulaire SMS Direct (Sans Backend)",
+      "description": "Sélecteur dynamique du type de besoin (Remorquage, Vente de voiture, Épave/Scrap), saisie de la position (ville/quartier) et modèle du véhicule. Génère et ouvre l'application SMS du client pré-remplie vers le 438-402-4080"
+    },
+    {
+      "id": "sticky_call_bar",
+      "name": "Barre d'Action Flottante Mobile & Desktop",
+      "description": "Bouton fixe en bas d'écran avec déclenchement direct 'APPELER MAINTENANCE 24/7: 438-402-4080' et bouton rapide SMS"
+    },
+    {
+      "id": "footer",
+      "name": "Pied de Page Architectural",
+      "description": "Grand numéro d'urgence 438-402-4080 en typographie XXL, logo officiel, zones desservies, mention légale et badge d'action 24h/24"
+    }
+  ],
+  "motion_and_effects": {
+    "smooth_scroll": "Lenis smooth scroll initialisé au niveau racine",
+    "animations": "Framer motion scroll reveal pour chaque section, stagger delay sur la grille de services, animation glowing pulse sur le bouton CTA principal",
+    "tracing_beam": "Bordure rouge animée ou glow néon rouge autour de la carte d'urgence principale",
+    "reduced_motion": "Respect de prefers-reduced-motion pour l'accessibilité"
+  },
+  "instructions_to_main_agent": [
+    "Toujours utiliser des fichiers .js (React JavaScript standard), pas de TypeScript.",
+    "Intégrer le logo fourni (https://customer-assets-jai6qajn.emergentagent.net/job_b23a0bfd-e543-460b-b6e9-95f104971102/artifacts/5zk6sw15_image.png) de manière prédominante dans le Hero et le Header.",
+    "Le bouton d'urgence 438-402-4080 doit toujours pointer vers 'tel:438-402-4080' et être impossible à rater.",
+    "Le formulaire de contact doit composer l'URL SMS dynamique sous la forme 'sms:438-402-4080?body=...'. Sur iOS et Android, cela ouvrira immédiatement l'application iMessage/SMS avec le message structuré (ex: 'Besoin: Remorquage d'urgence | Lieu: Montréal | Véhicule: Honda Civic').",
+    "Créer un toggle bilingue FR/EN fluide en haut à droite avec prise en charge complète des textes de toutes les sections.",
+    "Ajouter data-testid sur tous les éléments interactifs importants (ex: data-testid='hero-call-btn', data-testid='lang-toggle', data-testid='sms-submit-btn').",
+    "Ne jamais créer de fond 100% transparent sous les cartes ou sous le header qui nuirait à la lisibilité.",
+    "Utiliser Lucide Icons (Phone, Truck, Car, Wrench, ShieldCheck, Clock, MapPin, Send, Flame, Sparkles) pour appuyer visuellement chaque service."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Design audacieux et cinématique 'Route de Nuit' pour compagnie de remorquage.",
+    "Couleurs principales: Noir Asphalte (#070709), Rouge Éclair (#EF4444), Blanc Pur (#F8FAFC), Ambre Néon (#F59E0B).",
+    "Micro-animations systématiques sur tous les hovers de cartes et de boutons.",
+    "Toutes les sections doivent être parfaitement réactives sur mobiles et tablettes."
+  ]
+}
