@@ -26,6 +26,7 @@ Site web pour une compagnie de remorquage. Local et longue distance, MTL / Laval
 
 ## Mises à jour
 - 2026-07 : nouveau logo rond (noir/rouge, fleur de lys) remplace l'ancien ; promo « 3e remorquage GRATUIT / 3rd tow FREE » ajoutée au hero (badge ambré) et au bandeau défilant
+- 2026-07 : section promo plein écran entre Zones et Contact — texte géant avec reveal masqué, fond filigrane défilant, lueur rouge liée au défilement, bouton « J'en profite » (tel:)
 
 ## Vérifications faites
 - curl : site 200, logo 200 (1,4 Mo)

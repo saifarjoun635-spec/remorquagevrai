@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import Services from "./components/Services";
 import Zones from "./components/Zones";
+import Promo from "./components/Promo";
 import ContactSms from "./components/ContactSms";
 import Footer from "./components/Footer";
 import StickyBar from "./components/StickyBar";
@@ -43,6 +44,7 @@ function App() {
           <Marquee />
           <Services />
           <Zones />
+          <Promo />
           <ContactSms />
         </main>
         <Footer />

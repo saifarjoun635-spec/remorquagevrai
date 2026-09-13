@@ -23,6 +23,14 @@ export const translations = {
       eta: "Arrivée moyenne : 15–30 min",
       promo: "3e remorquage GRATUIT",
     },
+    promoSection: {
+      kicker: "Offre fidélité",
+      line1: "3E REMORQUAGE",
+      line2: "GRATUIT",
+      sub: "Après 2 remorquages payants, le 3e est sur nous.",
+      note: "Mentionnez l'offre en appelant ou en textant.",
+      cta: "J'EN PROFITE — 438-402-4080",
+    },
     marquee: [
       "REMORQUAGE URGENT 24/7",
       "3E REMORQUAGE GRATUIT",
@@ -121,6 +129,14 @@ export const translations = {
       zones: ["Montreal", "Laval", "South Shore", "North Shore"],
       eta: "Average arrival: 15–30 min",
       promo: "3rd tow FREE",
+    },
+    promoSection: {
+      kicker: "Loyalty offer",
+      line1: "3RD TOW",
+      line2: "FREE",
+      sub: "After 2 paid tows, the 3rd one is on us.",
+      note: "Mention the offer when calling or texting.",
+      cta: "CLAIM IT — 438-402-4080",
     },
     marquee: [
       "EMERGENCY TOWING 24/7",
