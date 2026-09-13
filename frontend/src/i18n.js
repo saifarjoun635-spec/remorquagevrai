@@ -21,9 +21,11 @@ export const translations = {
       sms: "TEXTO RAPIDE",
       zones: ["Montréal", "Laval", "Rive-Sud", "Rive-Nord"],
       eta: "Arrivée moyenne : 15–30 min",
+      promo: "3e remorquage GRATUIT",
     },
     marquee: [
       "REMORQUAGE URGENT 24/7",
+      "3E REMORQUAGE GRATUIT",
       "ACHAT COMPTANT — SCRAP & FERRAILLE",
       "TRANSPORT LONGUE DISTANCE",
       "MONTRÉAL • LAVAL • RIVE-SUD • RIVE-NORD",
@@ -118,9 +120,11 @@ export const translations = {
       sms: "QUICK TEXT",
       zones: ["Montreal", "Laval", "South Shore", "North Shore"],
       eta: "Average arrival: 15–30 min",
+      promo: "3rd tow FREE",
     },
     marquee: [
       "EMERGENCY TOWING 24/7",
+      "3RD TOW FREE",
       "CASH FOR SCRAP & METAL",
       "LONG-DISTANCE TRANSPORT",
       "MONTREAL • LAVAL • SOUTH SHORE • NORTH SHORE",

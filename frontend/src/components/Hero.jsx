@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Phone, MessageSquare, Timer, MapPin } from "lucide-react";
+import { Phone, MessageSquare, Timer, MapPin, Gift } from "lucide-react";
 import { useLang } from "../App";
 import { PHONE_TEL, PHONE_SMS } from "../i18n";
 
@@ -130,6 +130,13 @@ export default function Hero() {
             <span className="ml-1 flex items-center gap-1.5 font-code text-[11px] uppercase tracking-[0.2em] text-amber-400">
               <Timer className="h-3.5 w-3.5" />
               {t.hero.eta}
+            </span>
+            <span
+              data-testid="hero-promo-badge"
+              className="flex items-center gap-1.5 rounded-full border border-amber-400/40 bg-amber-400/10 px-3.5 py-1.5 font-code text-[11px] font-bold uppercase tracking-[0.2em] text-amber-300"
+            >
+              <Gift className="h-3.5 w-3.5" />
+              {t.hero.promo}
             </span>
           </motion.div>
         </div>

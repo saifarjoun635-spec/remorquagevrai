@@ -24,6 +24,9 @@ Site web pour une compagnie de remorquage. Local et longue distance, MTL / Laval
 7. Barre d'action collante (apparaît après défilement) : Appeler 24/7 + Texto
 8. Footer : numéro géant cliquable, zones, mentions
 
+## Mises à jour
+- 2026-07 : nouveau logo rond (noir/rouge, fleur de lys) remplace l'ancien ; promo « 3e remorquage GRATUIT / 3rd tow FREE » ajoutée au hero (badge ambré) et au bandeau défilant
+
 ## Vérifications faites
 - curl : site 200, logo 200 (1,4 Mo)
 - Screenshots : hero FR/EN, services, zones, contact ; formulaire SMS testé (aperçu correct) ; toggle EN vérifié
