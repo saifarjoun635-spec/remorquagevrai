@@ -32,19 +32,19 @@ export default function Hero() {
       data-testid="hero-section"
       className="relative flex min-h-screen items-center overflow-hidden pt-24 pb-16"
     >
-      <motion.div style={{ y: bgY }} className="absolute inset-0 -z-10">
+      <motion.div style={{ y: bgY }} className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1610641018556-030e920d6999?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
-          alt=""
-          className="h-[120%] w-full object-cover opacity-30"
+          src="/assets/truck-a.jpg"
+          alt="Remorqueuse 40 Est en intervention sous la neige"
+          className="h-[120%] w-full object-cover opacity-50"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#070709]/70 via-[#070709]/85 to-[#070709]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#070709]/60 via-[#070709]/70 to-[#070709]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(239,68,68,0.16),transparent_60%)]" />
       </motion.div>
 
       <motion.div
         style={{ opacity: fade }}
-        className="mx-auto grid w-full max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1.35fr_1fr]"
+        className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1.35fr_1fr]"
       >
         <div>
           <MaskedLine delay={0.15}>

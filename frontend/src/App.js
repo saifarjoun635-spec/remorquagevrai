@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import Services from "./components/Services";
+import Fleet from "./components/Fleet";
 import Zones from "./components/Zones";
 import Promo from "./components/Promo";
 import ContactSms from "./components/ContactSms";
@@ -43,6 +44,7 @@ function App() {
           <Hero />
           <Marquee />
           <Services />
+          <Fleet />
           <Zones />
           <Promo />
           <ContactSms />

@@ -4,8 +4,8 @@ import { useLang } from "../App";
 
 const icons = [Truck, Route, CarFront, Flame];
 const images = [
-  "https://images.unsplash.com/photo-1709674565833-6588dcb657d8?crop=entropy&cs=srgb&fm=jpg&q=80&w=1200",
-  "https://images.unsplash.com/photo-1781563870880-193e11fefad4?crop=entropy&cs=srgb&fm=jpg&q=80&w=1200",
+  "/assets/truck-b.jpg",
+  "/assets/truck-a.jpg",
   "https://images.unsplash.com/photo-1580014317999-e9f1936787a5?crop=entropy&cs=srgb&fm=jpg&q=80&w=1200",
   "https://images.unsplash.com/photo-1738189035213-43f3575314b0?crop=entropy&cs=srgb&fm=jpg&q=80&w=1200",
 ];

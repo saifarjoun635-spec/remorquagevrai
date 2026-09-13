@@ -31,6 +31,13 @@ export const translations = {
       note: "Mentionnez l'offre en appelant ou en textant.",
       cta: "J'EN PROFITE — 438-402-4080",
     },
+    fleet: {
+      eyebrow: "Notre flotte",
+      title: "NOS REMORQUEUSES,",
+      title2: "EN ACTION.",
+      cap1: "Dépannage d'urgence — remorquage sécurisé",
+      cap2: "Récupération hors route — treuil et câble",
+    },
     marquee: [
       "REMORQUAGE URGENT 24/7",
       "3E REMORQUAGE GRATUIT",
@@ -137,6 +144,13 @@ export const translations = {
       sub: "After 2 paid tows, the 3rd one is on us.",
       note: "Mention the offer when calling or texting.",
       cta: "CLAIM IT — 438-402-4080",
+    },
+    fleet: {
+      eyebrow: "Our fleet",
+      title: "OUR TRUCKS,",
+      title2: "IN ACTION.",
+      cap1: "Emergency roadside — secure towing",
+      cap2: "Off-road recovery — winch and cable",
     },
     marquee: [
       "EMERGENCY TOWING 24/7",

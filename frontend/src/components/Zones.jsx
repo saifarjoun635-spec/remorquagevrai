@@ -7,7 +7,7 @@ export default function Zones() {
 
   return (
     <section id="zones" data-testid="zones-section" className="relative overflow-hidden py-28 sm:py-36">
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1781563870880-193e11fefad4?crop=entropy&cs=srgb&fm=jpg&q=80&w=1920"
           alt=""
@@ -16,7 +16,7 @@ export default function Zones() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#070709] via-[#070709]/80 to-[#070709]" />
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
